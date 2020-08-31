@@ -6,12 +6,12 @@ use phpOMS\Router\RouteVerb;
 return [
     '^.*/testmodule.*$' => [
         [
-            'dest' => '\Modules\TestModule\Controller\Controller:testEndpoint',
-            'verb' => RouteVerb::GET,
+            'dest'       => '\Modules\TestModule\Controller\Controller:testEndpoint',
+            'verb'       => RouteVerb::GET,
             'permission' => [
                 'module' => Controller::MODULE_NAME,
-                'type'  => 1,
-                'state' => 2,
+                'type'   => 1,
+                'state'  => 2,
             ],
         ],
     ],
