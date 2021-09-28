@@ -21,7 +21,7 @@ return [
             'dest'       => '\Modules\TestModule\Controller\Controller:testEndpoint',
             'verb'       => RouteVerb::GET,
             'permission' => [
-                'module' => Controller::MODULE_NAME,
+                'module' => Controller::NAME,
                 'type'   => 1,
                 'state'  => 2,
             ],
