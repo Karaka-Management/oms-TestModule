@@ -1,0 +1,19 @@
+{
+    "test_module_model1": {
+        "name": "test_module_model1",
+        "fields": {
+            "test_module_model1_id": {
+                "name": "test_module_model1_id",
+                "type": "INT",
+                "null": false,
+                "primary": true,
+                "autoincrement": true
+            },
+            "test_module_model1_title": {
+                "name": "test_module_model1_title",
+                "type": "VARCHAR(255)",
+                "null": false
+            }
+        }
+    }
+}

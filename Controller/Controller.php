@@ -84,4 +84,18 @@ class Controller extends ModuleAbstract
     public function testEndpoint(RequestAbstract $request, ResponseAbstract $response, $data = null) : void
     {
     }
+
+    /**
+     * Test Hook
+     *
+     * @param mixed $data Generic data
+     *
+     * @return void
+     *
+     * @since 1.0.0
+     * @codeCoverageIgnore
+     */
+    public function testHook($data = null) : void
+    {
+    }
 }
