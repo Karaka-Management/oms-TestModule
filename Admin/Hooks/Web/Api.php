@@ -15,5 +15,5 @@ declare(strict_types=1);
 return [
     '/POST:Module:TestModule.*?\-create/' => [
         'callback' => ['\Modules\TestModule\Controller\Controller:testHook'],
-    ]
+    ],
 ];
