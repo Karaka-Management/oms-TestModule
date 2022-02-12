@@ -13,6 +13,6 @@
 declare(strict_types=1);
 
 return ['TestModule' => [
-    'Test1' => 'Test1を',
-    'Test2' => 'Test2を',
+    'Test1' => 'TEST1',
+    'Test2' => 'TEST2',
 ]];

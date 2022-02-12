@@ -13,6 +13,6 @@
 declare(strict_types=1);
 
 return ['TestModule' => [
-    'Test1' => 'test1',
-    'Test2' => 'test2',
+    'Test1' => 'Test1.',
+    'Test2' => 'Test2.',
 ]];
