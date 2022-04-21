@@ -81,7 +81,7 @@ class Controller extends ModuleAbstract
      * @since 1.0.0
      * @codeCoverageIgnore
      */
-    public function testEndpoint(RequestAbstract $request, ResponseAbstract $response, $data = null) : void
+    public function testEndpoint(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
     {
     }
 
