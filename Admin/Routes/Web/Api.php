@@ -16,7 +16,7 @@ use Modules\TestModule\Controller\Controller;
 use phpOMS\Router\RouteVerb;
 
 return [
-    '^.*/testmodule.*$' => [
+    '^.*/testmodule(\?.*$|$)' => [
         [
             'dest'       => '\Modules\TestModule\Controller\Controller:testEndpoint',
             'verb'       => RouteVerb::GET,
