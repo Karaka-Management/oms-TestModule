@@ -20,7 +20,7 @@ return [
         [
             'dest'       => '\Modules\TestModule\Controller\Controller:testEndpoint',
             'verb'       => RouteVerb::GET,
-            'active' => true,
+            'active'     => true,
             'permission' => [
                 'module' => Controller::NAME,
                 'type'   => 1,
