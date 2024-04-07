@@ -21,6 +21,7 @@ return [
             'dest'       => '\Modules\TestModule\Controller\Controller:testEndpoint',
             'verb'       => RouteVerb::GET,
             'csrf'       => true,
+            'active' => true,
             'permission' => [
                 'module' => Controller::NAME,
                 'type'   => 1,
