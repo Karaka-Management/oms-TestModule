@@ -6,7 +6,7 @@
  *
  * @package   Modules\TestModule\Controller
  * @copyright Dennis Eichhorn
- * @license   OMS License 2.0
+ * @license   OMS License 2.2
  * @version   1.0.0
  * @link      https://jingga.app
  */
@@ -20,7 +20,7 @@ namespace Modules\TestModule\Controller;
  * This class is responsible for the basic admin activities such as managing accounts, groups, permissions and modules.
  *
  * @package Modules\TestModule\Controller
- * @license OMS License 2.0
+ * @license OMS License 2.2
  * @link    https://jingga.app
  * @since   1.0.0
  */
